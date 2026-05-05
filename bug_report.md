@@ -51,7 +51,9 @@ Because `showModal` was used to control `MentorDetailedProfile` and `openSheet` 
 
 
 # Was the PR peer reviewed before making to prod?
-
+Not reviewed 
 
 
 # Could this have been tested better?
+
+Yes, this could have been tested better. A simple manual validation of the mentor booking flow before deployment would have caught the issue immediately. Additionally, a quick peer review or basic regression testing of layout-level changes would have prevented this bug from reaching production.
